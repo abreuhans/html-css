@@ -5,13 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fontes em CSS</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
         body {
-            font-family: 'Courier New', Courier, monospace;
+            font-family: 'work sans', 'Courier New', Courier, monospace;
+            /* 
+            Medidas Absolutas
+            cm, mm, in, px, pt, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px = 1em
+            */
+            font-size: 1em;
+            /* lighter, light, normal, bold, bolder, */
         }
 
-        h1, h2 {
-            font-family: 'Times New Roman', Times, serif;
+        h1 {
+            /* shorthand font
+            - font-style, font-weight, font-size, font-family
+
+            font-family: 'work sans', Arial, sans-serif;
+            font-size: 2em;
+            font-weight: bold;
+            text-decoration: none;
+            */
+            font: italic bold 2em 'work sans', Arial, sans-serif;
         }
+        h2 {
+            font: bold 2em 'work sans', Arial, sans-serif;
+        }
+
     </style>
 </head>
 <body>
