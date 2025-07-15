@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        @font-face {
+            font-family: 'Polaroid Script';
+            src: url('Polaroid Script (Demo_Font).otf') format('opentype');
+            /*
+              Tipos de format()
+                - 'truetype' para arquivos .ttf
+                - 'opentype' para arquivos .otf
+                - 'woff' para arquivos .woff
+                - 'embedded-opentype' para arquivos .eot
+                - 'svg' para arquivos .svg
+                - truetype-att (Apple Advanced Typography)
+            */
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            font-size: 16px;
+            color: black;
+        }
+
+        h1 {
+            font-family: 'Polaroid Script', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Título</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta voluptates ab obcaecati officiis expedita, ipsum similique. Minus nulla totam, eaque quasi nesciunt id commodi iure sed sit, eveniet, saepe sunt?</p>
+</body>
+</html>
