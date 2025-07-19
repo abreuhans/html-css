@@ -19,22 +19,62 @@ nav {
 
 main {
   padding: 20px;
+  background-color: #81C784;
 }
 
 article {
-  margin-bottom: 20px;
+  margin: auto;
+  padding: 10px;
+  max-width: 800px;
+  background-color: white;
+}
+
+img[src='imagens/irina-blok.jpg'] {
+  width: 500px;
+
 }
 
 h2 {
   font-size: 2em;
   margin: 0;
   font-family: 'Idroid', sans-serif;
+  color: #217625;
 }
 
 h3 {
   font-size: 1.5em;
   margin-top: 0;
   font-family: 'Idroid', sans-serif;
+  color: #217625;
+  background-image: linear-gradient(to right, #8fea94, #ffffff);
+}
+
+article iframe {
+  width: 100%;
+  height: 500px;
+  border: 20px solid #217625;
+
+}
+
+div {
+  width: 100%;
+  height: 500px;
+  background-color: #95ea9c89;
+  padding: 10px;
+  margin: auto;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: left;
+  margin-top: 0;
+  background-color: #217625;
+}
+
+ul {
+  list-style-type: symbols();
+  padding: 0;
 }
 
 footer {
