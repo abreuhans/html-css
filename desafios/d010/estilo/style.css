@@ -3,6 +3,11 @@
   font-family: 'Idroid';
   src: url('fontes/idroid.otf') format('opentype');
 }
+
+body {
+  background-color: #c5ebd6;
+}
+
 header {
   background-image: linear-gradient(to top, #4CAF50, #81C784);
   color: white;
