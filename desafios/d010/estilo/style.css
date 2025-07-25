@@ -56,6 +56,14 @@ nav {
 
 main {
   background-color: white;
+  min-width: 300px;
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.364);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 main h1 {
@@ -63,16 +71,25 @@ main h1 {
   font-family: var(--fonte-android);
 }
 
+main h2 {
+  font-family: var(--fonte-android);
+}
+
+main img {
+  width: 100%;
+}
+
+main img.pequena {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
 article {
   margin: auto;
   padding: 10px;
   max-width: 800px;
   background-color: white;
-}
-
-img[src='imagens/irina-blok.jpg'] {
-  width: 500px;
-
 }
 
 h2 {
