@@ -98,6 +98,37 @@ main h1 {
 
 main h2 {
   font-family: var(--fonte-android);
+  color: var(--cor4);
+  font-size: 1.3em;
+  background-image: linear-gradient(to right, var(--cor1), transparent);
+  text-indent: 8px;
+}
+
+main p {
+  margin: 15px 0;
+  text-align: justify;
+  text-indent: 30px;
+  font-size: 1em;
+  line-height: 2em;
+}
+
+main strong {
+  color: var(--cor4);
+  font-weight: bold;
+  padding: 2px 5px;
+}
+
+main a {
+  color: var(--cor5);
+  font-weight: bold;
+  text-decoration: none;
+  background-color: var(--cor1);
+  padding: 2px 5px;
+}
+
+main a:hover {
+  text-decoration: underline;
+  color: var(--cor4);
 }
 
 main img {
@@ -105,7 +136,7 @@ main img {
 }
 
 main img.pequena {
-  width: 50%;
+  width: 350px;
   display: block;
   margin: auto;
 }
@@ -115,41 +146,6 @@ article {
   padding: 10px;
   max-width: 800px;
   background-color: white;
-}
-
-h2 {
-  font-size: 2em;
-  margin: 0;
-  font-family: 'Idroid', sans-serif;
-  color: #217625;
-}
-
-h3 {
-  font-size: 1.5em;
-  margin-top: 0;
-  font-family: 'Idroid', sans-serif;
-  color: #217625;
-  background-image: linear-gradient(to right, #8fea94, #ffffff);
-}
-
-article iframe {
-  width: 100%;
-  height: 500px;
-  border: 20px solid #217625;
-
-}
-
-div {
-  width: 100%;
-  height: 500px;
-  background-color: #95ea9c89;
-  padding: 10px;
-  margin: auto;
-}
-
-ul {
-  list-style-type: symbols();
-  padding: 0;
 }
 
 footer {
